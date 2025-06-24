@@ -1,0 +1,37 @@
+{
+    "optimal_gap": 10,
+    "target_sample_rate": 22050,
+    "num_samples": 55125,
+    "n_mels": 64,
+    "hop_length": 512,
+    "label_to_int": {
+        "AbdulBari_Althubaity": 0,
+        "AbdulRahman_Alsudais": 1,
+        "Abdullah_Albuaijan": 2,
+        "Ali_Alhothaify": 3,
+        "Bander_Balilah": 4,
+        "Maher_Almuaiqly": 5,
+        "Mohammed_Aluhaidan": 6,
+        "Mohammed_Ayoub": 7,
+        "Nasser_Alqutami": 8,
+        "Saad_Alghamdi": 9,
+        "Saud_Alshuraim": 10,
+        "Yasser_Aldossary": 11
+    },
+    "gap_search_experiment": {
+        "gaps_tested": [
+            0,
+            5,
+            10,
+            15
+        ],
+        "epochs_per_run": 3,
+        "batch_size": 32,
+        "performance_results": {
+            "0": 67.07920792079207,
+            "5": 68.68811881188118,
+            "10": 74.25742574257426,
+            "15": 73.01980198019803
+        }
+    }
+}
